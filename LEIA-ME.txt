@@ -1,0 +1,15 @@
+PAINEL DE ESTUDOS — SISTEMA DE BIBLIOTECA (C# / POO)
+
+Como usar:
+1. Extraia o ZIP para uma pasta.
+2. Abra a pasta e dê dois cliques em index.html.
+3. Marque uma alternativa em cada questão.
+4. Clique em "Corrigir respostas" para ver a pontuação e as justificativas.
+5. Use o filtro para praticar um assunto específico.
+
+Arquivos:
+- index.html: estrutura do painel.
+- style.css: aparência e responsividade.
+- script.js: perguntas, correção, filtro e pontuação.
+
+As 12 questões são novas e foram elaboradas com base nos temas do simulado enviado, sem repetir literalmente as perguntas dele.

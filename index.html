@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel de Estudos — Sistema de Biblioteca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <span class="eyebrow">REVISÃO PARA A PROVA • C# / POO</span>
+      <h1>Painel de Estudos</h1>
+      <p>Questões inéditas para praticar os conceitos do Sistema de Biblioteca.</p>
+      <div class="hero-stats">
+        <div><strong id="totalCount">12</strong><span>questões</span></div>
+        <div><strong id="answeredCount">0</strong><span>respondidas</span></div>
+        <div><strong id="scoreCount">—</strong><span>pontuação</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <div>
+        <label for="topicFilter">Filtrar por assunto</label>
+        <select id="topicFilter">
+          <option value="todos">Todos os assuntos</option>
+          <option value="Encapsulamento">Encapsulamento</option>
+          <option value="Construtores">Construtores</option>
+          <option value="Listas e CRUD">Listas e CRUD</option>
+          <option value="Referências">Referências</option>
+          <option value="Propriedades">Propriedades</option>
+          <option value="Controle de fluxo">Controle de fluxo</option>
+        </select>
+      </div>
+      <div class="toolbar-actions">
+        <button id="checkBtn" class="btn primary">Corrigir respostas</button>
+        <button id="resetBtn" class="btn secondary">Recomeçar</button>
+      </div>
+    </section>
+
+    <div id="resultBanner" class="result-banner hidden" role="status"></div>
+    <section id="quiz" class="quiz-grid" aria-live="polite"></section>
+    <footer>
+      <p>Estude com calma: responda primeiro e depois confira a justificativa.</p>
+      <span>Feito para praticar • HTML, CSS e JavaScript</span>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
